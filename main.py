@@ -6,7 +6,7 @@ from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 #from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Dispatcher
 
-#TOKEN = "6042107411:AAHSzve9V17mGIL7UY0gXvN733ZQleqFpG8"
+#TOKEN = ""
 
 
 
@@ -25,7 +25,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 #updater.idle()
 
-bot = Bot(token="6042107411:AAHSzve9V17mGIL7UY0gXvN733ZQleqFpG8")
+bot = Bot(token="")
 dp = Dispatcher(bot)
 
 def schedule_checker():
